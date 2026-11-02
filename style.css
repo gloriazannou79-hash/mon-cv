@@ -1,0 +1,104 @@
+html {
+    background-color: #e9ece8;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #3a4a4f;
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fbfbf9;
+    border-radius: 6px;
+    box-shadow: 0 2px 12px rgba(47, 62, 70, 0.12);
+    overflow: hidden;
+}
+
+/* En-tête */
+.entete {
+    background-color: #2f3e46;
+    color: #f1f3ef;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.nom {
+    margin: 0;
+    font-size: 2.4em;
+    font-weight: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.metier {
+    margin: 8px 0;
+    color: #a7bfae;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.contact {
+    margin: 12px 0 0;
+    font-size: 0.9em;
+    color: #cfd8d1;
+}
+
+/* Sections */
+section {
+    padding: 22px 45px;
+}
+
+h2 {
+    margin: 0 0 15px;
+    color: #2f3e46;
+    font-size: 1.1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #b7c4ba;
+    padding-bottom: 6px;
+}
+
+h3 {
+    margin: 12px 0 0;
+    color: #354f52;
+    font-size: 1.05em;
+}
+
+.lieu {
+    margin: 0;
+    color: #52796f;
+}
+
+.date {
+    margin: 0 0 6px;
+    color: #8a9a92;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Compétences en petites pastilles discrètes */
+.liste-competences {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.liste-competences li {
+    margin: 0;
+    padding: 4px 14px;
+    background-color: #e3e9e4;
+    color: #354f52;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
